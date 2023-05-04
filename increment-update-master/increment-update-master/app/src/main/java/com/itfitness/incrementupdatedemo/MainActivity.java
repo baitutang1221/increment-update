@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
      * @param file 文件
      * @return 文件MD5值
      */
-    public static String getFileMD5(File file) {
+    public static String getFileMD5(File file) {//service
         if (!file.isFile()) {
             return null;
         }
